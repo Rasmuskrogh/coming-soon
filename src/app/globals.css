@@ -1,0 +1,24 @@
+:root {
+	--color-bg: #fafaf9;
+	--color-bg-alt: #f0efec;
+	--color-ink: #1c1a17;
+	--color-ink-muted: #5c574f;
+	--color-accent: #8a5a44;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	color-scheme: light;
+}
+
+body {
+	color: var(--color-ink);
+	background: var(--color-bg);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
